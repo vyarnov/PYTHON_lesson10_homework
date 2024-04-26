@@ -10,4 +10,4 @@ data.loc[data["whoAmI"] == "robot"] = 1
 data.loc[data["whoAmI"] == "human"] = 0
 data.head()
 
-print(data.head())
+# print(data.head())
